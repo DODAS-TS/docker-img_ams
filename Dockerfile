@@ -1,4 +1,4 @@
-FROM dodasts/htcondor:dciangotdev
+FROM dodasts/htcondor
 
 RUN yum --setopt=tsflags=nodocs -y install binutils \
         boost-devel \
